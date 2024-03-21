@@ -14,6 +14,7 @@ namespace TIENDAEXAM.VISTAS
             //Application.Run(new Form1());
             //listar
             //Application.Run(new PersonaVistas.PersonaListarVisa());
+            //Application.Run(new EmpleadoVistas.EmpleadoListarVista());
             //insertar
             Application.Run(new EmpleadoVistas.EmpleadoInsertarVista());
         }
