@@ -41,7 +41,7 @@ namespace TIENDAEXAM.VISTAS.EmpleadoVistas
             if (fr.ShowDialog() == DialogResult.OK)
             {
                 PERSONA persona = bssper.ObtenerPersonaIdBss(IdPersonaSeleccionada);
-                textBox1.Text = persona.Nombre;
+                textBox1.Text = persona.Nombre + " " + persona.Apellido;
             }
         }
     }

@@ -17,6 +17,8 @@ namespace TIENDAEXAM.VISTAS
             //Application.Run(new EmpleadoVistas.EmpleadoListarVista());
             //insertar
             Application.Run(new EmpleadoVistas.EmpleadoInsertarVista());
+            //eliminar
+            //Application.Run(new EmpleadoVistas.EmpleadoEditarVista());
         }
     }
 }

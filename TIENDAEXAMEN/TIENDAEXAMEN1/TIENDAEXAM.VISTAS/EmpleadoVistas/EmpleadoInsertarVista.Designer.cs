@@ -103,14 +103,14 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(154, 125);
+            textBox2.Location = new Point(154, 89);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(252, 27);
             textBox2.TabIndex = 7;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(154, 87);
+            textBox3.Location = new Point(154, 122);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(252, 27);
             textBox3.TabIndex = 8;

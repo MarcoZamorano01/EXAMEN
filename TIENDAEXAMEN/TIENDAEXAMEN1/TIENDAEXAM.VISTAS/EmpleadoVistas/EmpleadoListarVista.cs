@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TIENDAEXAM.BSS;
+using TIENDAEXAM.VISTAS.EmpleadoVistas;
 
 namespace TIENDAEXAM.VISTAS.EmpleadoVistas
 {
