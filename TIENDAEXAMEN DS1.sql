@@ -1,0 +1,34 @@
+--base de datos examen
+CREATE DATABASE TIENDAEXAM1
+
+
+CREATE TABLE PERSONA (
+IDPERSONA INT IDENTITY (1,1) NOT NULL,
+NOMBRE NVARCHAR (50) NOT NULL,
+APELLIDO NVARCHAR (50) NOT NULL,
+ESTADO NVARCHAR (20) NOT NULL,
+PRIMARY KEY (IDPERSONA),
+);
+CREATE TABLE EMPLEADO (
+IDEMPLEADO INT IDENTITY (1,1) NOT NULL,
+IDPERSONA INT NOT NULL,
+PUESTO NVARCHAR (50) NOT NULL,
+SALARIO MONEY NOT NULL,
+FECHACONTRA DATETIME NOT NULL,
+PRIMARY KEY (IDEMPLEADO),
+FOREIGN KEY (IDPERSONA) REFERENCES PERSONA (IDPERSONA)
+);
+
+
+--INSERTAR DATOS DE PRUEBA
+insert into PERSONA values('Pedro' ,'Fernandez','Activo');
+insert into PERSONA values('Adrián' ,'Pérez' ,'Activo');
+insert into PERSONA values('Belén','González' ,'Activo');
+insert into PERSONA values('Ana' ,'Rodríguez' ,'Inactivo');
+
+SELECT * FROM PERSONA 
+
+insert into EMPLEADO values(1,'gerente' ,'400','2022-02-01 14:00:00');
+insert into EMPLEADO values(2,'conserge' ,'300' ,'2022-02-01 14:00:00');
+insert into EMPLEADO values(3,'marketing','200' ,'2022-02-01 14:00:00');
+insert into EMPLEADO values(4,'diseños' ,'100' ,'2022-02-01 14:00:00');

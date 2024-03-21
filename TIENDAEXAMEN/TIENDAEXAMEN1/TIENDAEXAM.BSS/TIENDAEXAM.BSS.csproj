@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TIENDAEXAM.DAL\TIENDAEXAM.DAL.csproj" />
+    <ProjectReference Include="..\TIENDAEXAM.MODELOS\TIENDAEXAM.MODELOS.csproj" />
+  </ItemGroup>
+
+</Project>
